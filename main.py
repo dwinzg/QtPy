@@ -11,7 +11,7 @@ window = QWidget()
 window.setWindowTitle('PyQt5 App')
 window.setGeometry(200, 200, 560, 160)
 window.move(60, 15)
-helloMsg = QLabel('<h1>Random Header!</h1>', parent=window)
+helloMsg = QLabel('<h1>Header!</h1>', parent=window)
 helloMsg.move(60, 15)
 
 window.show()
